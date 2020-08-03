@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GEMS.TRATNEE.ExecutorEquation.Api", "GEMS.TRATNEE.ExecutorEquation.Api\GEMS.TRATNEE.ExecutorEquation.Api.csproj", "{EF579201-0EAF-43B6-AC4E-F75E028BB8C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GEMS.TRAINEE.ExecutorEquation.Tests", "GEMS.TRAINEE.ExecutorEquation.Tests\GEMS.TRAINEE.ExecutorEquation.Tests.csproj", "{22B00D63-E726-4FA0-BF4C-1C1A1D130170}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF579201-0EAF-43B6-AC4E-F75E028BB8C7} = {EF579201-0EAF-43B6-AC4E-F75E028BB8C7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF579201-0EAF-43B6-AC4E-F75E028BB8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF579201-0EAF-43B6-AC4E-F75E028BB8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF579201-0EAF-43B6-AC4E-F75E028BB8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF579201-0EAF-43B6-AC4E-F75E028BB8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B00D63-E726-4FA0-BF4C-1C1A1D130170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B00D63-E726-4FA0-BF4C-1C1A1D130170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B00D63-E726-4FA0-BF4C-1C1A1D130170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B00D63-E726-4FA0-BF4C-1C1A1D130170}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE183252-E5B2-4B1C-8BA8-D06D822C79FF}
+	EndGlobalSection
+EndGlobal
