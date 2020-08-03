@@ -1,7 +1,7 @@
 ﻿using GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Dto;
 using GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Processes;
 using GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Services;
-using GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Services.ReadersQuadraticEquations.FactoriesReaders;
+using GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Services.ReadersQuadraticEquations.FactoriesReaderQuadraticEquations;
 using Moq;
 using NUnit.Framework;
 using System.Collections.Generic;

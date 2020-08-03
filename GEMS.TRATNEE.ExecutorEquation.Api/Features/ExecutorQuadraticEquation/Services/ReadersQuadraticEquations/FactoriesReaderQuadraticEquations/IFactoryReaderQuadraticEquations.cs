@@ -1,5 +1,5 @@
 ﻿
-namespace GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Services.ReadersQuadraticEquations.FactoriesReaders
+namespace GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Services.ReadersQuadraticEquations.FactoriesReaderQuadraticEquations
 {
     internal interface IFactoryReaderQuadraticEquations
     {

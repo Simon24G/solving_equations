@@ -1,6 +1,6 @@
 ﻿using GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Helpers;
 using GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Services;
-using GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Services.ReadersQuadraticEquations.FactoriesReaders;
+using GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Services.ReadersQuadraticEquations.FactoriesReaderQuadraticEquations;
 using System;
 
 namespace GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Processes

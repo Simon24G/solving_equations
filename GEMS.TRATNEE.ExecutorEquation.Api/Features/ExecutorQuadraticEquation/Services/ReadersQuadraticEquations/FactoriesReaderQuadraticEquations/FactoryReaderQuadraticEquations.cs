@@ -3,7 +3,7 @@ using GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Views
 using System;
 using System.IO;
 
-namespace GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Services.ReadersQuadraticEquations.FactoriesReaders
+namespace GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.Services.ReadersQuadraticEquations.FactoriesReaderQuadraticEquations
 {
     internal class FactoryReaderQuadraticEquations : IFactoryReaderQuadraticEquations
     {
@@ -31,7 +31,7 @@ namespace GEMS.TRATNEE.ExecutorEquation.Api.Features.ExecutorQuadraticEquation.S
                 return new FileReaderQuadraticEquations(DefaultPathToFile);
             }
 
-            if (Directory.Exists(path))
+            if (File.Exists(path))
             {
                 return new FileReaderQuadraticEquations(path);
             }
